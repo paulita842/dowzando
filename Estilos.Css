@@ -1,0 +1,58 @@
+#ventana{
+    background-image:url("/Users/jam/Desktop/Downzando/Dowzandoescueladeartes.png");   
+}
+/* body{
+    background-color: rgb(206, 132, 166);
+    
+} */
+#padrino{
+    background-image:url("/Users/jam/Desktop/Proyecto Downzando/Plan Padrino Downzando.jpeg");
+    ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    font-family: monospace;
+    
+    
+}
+.menu :hover{
+    color: rgb(20, 40, 220);
+}
+.menu{   
+ list-style: none;
+ line-height: 5px;
+ float:right;
+ text-align: right;  
+ text-decoration: none; 
+ border-style: none;
+ margin-top:20px;
+ color: gray;
+ transition: background-color .5s;
+ font-family: monospace;
+ font-size: 25; 
+ 
+}
+.formulario{
+    color: darkblue;
+    border-radius: 5px;  
+    font-size: 20px;
+    font-family: monospace;
+}
+.parrafo{
+    color:black;
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    
+}
+#titulo{
+    color:rgb(37, 31, 26);
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 350;
+    
+}

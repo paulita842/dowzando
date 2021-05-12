@@ -1,0 +1,82 @@
+html{
+  height: 100px;
+  position: relative;
+}
+body {
+  margin: 0;
+  height: 100px;
+  background-image: url("/Users/jam/Desktop/Downzando/padrino3.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* background-color: rgb(167, 141, 219);  */
+}
+.inicio{
+  background-image: none;
+  background-image: url("/Users/jam/Desktop/Downzando/iniciodowzando.png");
+  background-size: 100%;
+}
+.footer {
+   position:fixed;
+   left: 30px;
+   bottom: 20px;
+   height:30px;
+   width:100%;
+   
+
+}
+.menu{   
+  list-style: none;
+  line-height: 5px;
+  float:center;
+  text-align:center;  
+  text-decoration: none; 
+  border-style: none;
+  margin-top:20px;
+  color: aliceblue;
+  transition: background-color .5s;
+  font-family: monospace;
+  font-size:  26px; 
+ }
+#grid{
+  display:flex;
+  width: 100px; 
+  grid-template-rows:minmax(10px, 60%);
+  grid-template-columns: minmax(90%, 70%);
+  color: black;
+  line-break: initial;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 6px;
+  margin-left: 36px;
+  justify-content: left;
+  margin-top: 80px; 
+}
+ .formulario{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 410px;
+  align-content:end;  
+ }
+ .somos{
+   background-image: none;
+   background-color: rgb(128, 228, 218);
+ }
+  #titulo{
+    color: cornsilk;
+    
+  }
+  .imag{
+    text-align: center;
+    border-radius: 6px;
+  }
+  .parrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: justify;
+  }
+  .galeria{
+    background-image: none;
+    background-color: rgb(200, 235, 130);
+  }
+  
+
