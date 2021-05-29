@@ -10,6 +10,18 @@ body {
   background-size: cover; 
   /* background-color: rgb(167, 141, 219);  */
 }
+.parrafo{
+    font-family:fantasy;
+    background-color: khaki;
+    text-align: justify;
+    margin-left: 25px;
+    font-size: 35px;
+    color:black;
+    padding-right: 30px;
+    box-shadow: 2px 2px 4px rgba(1,1,1,4);
+    border-radius: 10px;
+    margin-right: 35px;
+}
 .inicio{
   background-image: none;
   background-image: url("/Users/jam/Desktop/Downzando/iniciodowzando.png");
@@ -21,8 +33,6 @@ body {
    bottom: 20px;
    height:30px;
    width:100%;
-   
-
 }
 .menu{   
   list-style: none;
@@ -34,8 +44,9 @@ body {
   margin-top:20px;
   color: aliceblue;
   transition: background-color .5s;
-  font-family: monospace;
+  font-family: fantasy;
   font-size:  26px; 
+  align-items: flex-end;
  }
 #grid{
   display:flex;
@@ -45,7 +56,7 @@ body {
   color: black;
   line-break: initial;
   font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: fantasy;
   border-radius: 6px;
   margin-left: 36px;
   justify-content: left;
@@ -55,28 +66,221 @@ body {
   display: flex;
   flex-direction: row-reverse;
   height: 410px;
-  align-content:end;  
+  justify-content: right;  
  }
  .somos{
    background-image: none;
-   background-color: rgb(128, 228, 218);
+   background-color: white;
+   align-items: flex-end;
  }
-  #titulo{
-    color: cornsilk;
-    
+  .titulo{
+    font-family:fantasy;
+    text-align: center;
+    background-color:white;
+    border-radius: 6px;
+    width: 650px;
+    padding-left: 60px;
+    text-decoration: underline;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 35px;
+    color: rgb(240, 233, 32);
+    background-image: none;
+    box-shadow: 2px 2px 4px rgba(0.1,0.1,0.1,4);  
   }
   .imag{
     text-align: center;
     border-radius: 6px;
   }
-  .parrafo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-    text-align: justify;
-  }
   .galeria{
     background-image: none;
     background-color: rgb(200, 235, 130);
   }
+  .somos1{
+    margin-top: auto;
+    float: left;
+    margin-left: 25px;
+  }
+  .equipo{
+    font-family:fantasy;
+    text-align: center;
+    background-color: khaki;
+    border-radius: 6px;
+    width: 295px;
+    padding-left: 60px;
+    text-decoration: underline;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 35px;
+    color: black;
+    background-image: none;
+    box-shadow: 2px 2px 4px rgba(0.1,0.1,0.1,4);
+  }
+  .team{
+    font-family:fantasy;
+    background-color: khaki;
+    text-align: justify;
+    margin-left: 25px;
+    font-size: 35px;
+    color:black;
+    padding-right: 30px;
+    box-shadow: 2px 2px 4px rgba(1,1,1,4);
+    border-radius: 35px;
+    margin-right: 35px;
+    
+  }
+  .profesores{
+    float: left;
+  }
+  .title{
+    font-family:fantasy;
+    text-align: center;
+    background-color:white;
+    border-radius: 6px;
+    width: 500px;
+    padding-left: 60px;
+    text-decoration: underline;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 50px;
+    color: cornflowerblue;
+    background-image: none;
+    box-shadow: 2px 2px 4px rgba(0.1,0.1,0.1,4);
+    margin-top: 25px;
+  }
+  .fundadora{
+      font-family:fantasy;
+      background-color: white;
+      text-align: justify;
+      margin-left: 25px;
+      font-size: 35px;
+      color: cornflowerblue;
+      padding-right: 30px;
+      box-shadow: 2px 2px 4px rgba(1,1,1,6);
+      border-radius: 35px;
+      margin-right: 35px;
+      padding-left: 40px;
+      font-weight: bold;
+      width: 800px;
+      
+    }
+    .icons{
+      list-style: none;
+      line-height: 5px;
+      float:right;
+      text-decoration: none; 
+      border-style: none;
+      color: aliceblue;
+      transition: background-color .5s;
+      font-family: fantasy;
+      font-size:  26px; 
+      align-items: flex-end;
+      
+      
+    }
+    .icons :hover{
+      color: rgb(220, 203, 20);
+
+    }
+    .icons :visited{
+      color: darkgreen;
+    }
+    .menu :hover{
+      color: rgb(220, 203, 20);
+    }
+    .menu :visited{
+      color: darkgreen;
+    }
+    .title1{
+      font-family:fantasy;
+      background-color: white;
+      text-align: center;
+      margin-left: 25px;
+      font-size: 45px;
+      color: rgb(180, 100, 237);
+      padding-right: 30px;
+      box-shadow: 2px 2px 4px rgba(1,1,1,6);
+      border-radius: 35px;
+      margin-right: 35px;
+      padding-left: 40px;
+      font-weight: bold;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+    .title2{
+      font-family:fantasy;
+      background-color: white;
+      text-align: center;
+      margin-left: 25px;
+      font-size: 45px;
+      color: rgb(187, 51, 183);
+      padding-right: 30px;
+      box-shadow: 2px 2px 4px rgba(1,1,1,6);
+      border-radius: 35px;
+      margin-right: 35px;
+      padding-left: 40px;
+      font-weight: bold;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .parrafo1{
+      font-family:fantasy;
+      background-color: white;
+      text-align: center;
+      margin-left: 25px;
+      font-size: 26px;
+      color: black;
+      padding-right: 26px;
+      box-shadow: 2px 2px 4px rgba(1,1,1,6);
+      border-radius: 35px;
+      margin-right: 35px;
+      padding-left: 40px;
+      width: 600px;
+      background-color: rgb(222, 140, 250);
+    }
+    .parrafo2{
+      font-family:fantasy;
+      background-color: white;
+      text-align: center;
+      margin-left: 25px;
+      font-size: 26px;
+      color: black;
+      padding-right: 26px;
+      box-shadow: 2px 2px 4px rgba(1,1,1,6);
+      border-radius: 35px;
+      margin-right: 35px;
+      padding-left: 40px;
+      width: 600px;
+      background-color: rgb(222, 140, 250);
+      float: right;
+    }
+    .title3{
+      font-family:fantasy;
+      background-color: white;
+      text-align: center;
+      margin-left: 25px;
+      font-size: 45px;
+      color: rgb(187, 51, 183);
+      padding-right: 30px;
+      box-shadow: 2px 2px 4px rgba(1,1,1,6);
+      border-radius: 35px;
+      margin-right: 35px;
+      padding-left: 40px;
+      font-weight: bold;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      float: left;
+    }
+   
+   
+    
+   
+    
+  
+ 
   
 
