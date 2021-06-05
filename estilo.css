@@ -84,7 +84,7 @@ body {
     margin-left: 25px;
     text-align: left;
     font-size: 35px;
-    color: rgb(240, 233, 32);
+    color: rgb(237, 83, 36);
     background-image: none;
     box-shadow: 2px 2px 4px rgba(0.1,0.1,0.1,4);  
   }
@@ -104,17 +104,17 @@ body {
   .equipo{
     font-family:fantasy;
     text-align: center;
-    background-color: khaki;
+    background-color:white;
     border-radius: 6px;
-    width: 295px;
+    width: 420px;
     padding-left: 60px;
     text-decoration: underline;
     margin-left: 25px;
     text-align: left;
-    font-size: 35px;
-    color: black;
+    font-size: 50px;
+    color: rgb(237, 83, 36);
     background-image: none;
-    box-shadow: 2px 2px 4px rgba(0.1,0.1,0.1,4);
+    box-shadow: 2px 2px 4px rgba(0.1,0.1,0.1,4); 
   }
   .team{
     font-family:fantasy;
@@ -275,7 +275,38 @@ body {
       margin-right: auto;
       float: left;
     }
-   
+    .arte{
+      font-family:fantasy;
+      text-align: center;
+      background-color:white;
+      border-radius: 6px;
+      width: 650px;
+      padding-left: 60px;
+      text-decoration: underline;
+      margin-left: 25px;
+      text-align: left;
+      font-size: 35px;
+      color: rgb(237, 83, 36);
+      background-image: none;
+      box-shadow: 2px 2px 4px rgba(0.1,0.1,0.1,4);  
+    }
+   .pintura{
+    font-family:fantasy;
+    background-color: khaki;
+    text-align: justify;
+    margin-left: 25px;
+    font-size: 35px;
+    color:black;
+    padding-right: 30px;
+    box-shadow: 2px 2px 4px rgba(1,1,1,4);
+    border-radius: 35px;
+    margin-right: 35px;
+    padding-left: 35px;
+   }
+
+   #taller{
+     text-align: center;
+   }
    
     
    
